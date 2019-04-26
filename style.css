@@ -83,54 +83,25 @@ main {
   margin-bottom: 35px;
 }
 
+main .mainblock {
+
+}
+
 main .block {
-  width: 445px;
-}
-
-main .block-title {
-  font-family: Arial Black;
-  font-size: 16px;
-  padding: 15px 30px;
-  margin-bottom: 15px;
-  background: #778a50;
-  color: #edf2c5;
-  border-radius: 3px;
-}
-
-.img-list {
-  display: flex;
-  justify-content: space-between;
+  width: 640px;
 }
 
 .img-list img {
-  height: 140px;
-  width: 140px;
+  margin: 30px;
+  width: 240px;
 }
 
-.block-content {
-  padding: 16px 15px;
-  border-radius: 3px;
-  background: #f7fbda;
+.img-list-item img {
+  margin: 30px;
+  width: 580px;
 }
 
-.block-content-word {
-  font-size: 12px;
-  line-height: 1.33;
-  margin: 0;
-  color: #7d7d7d;
-}
 
-.block-content-contact {
-  font-size: 12px;
-  line-height: 1.83;
-  margin: 0;
-  color: #7d7d7d;
-}
-
-.block-divide {
-  border-top: solid #7d7d7d 1px;
-  margin: 16px 0;
-}
 
 footer {
   font-size: 12px;
