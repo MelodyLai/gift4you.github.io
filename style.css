@@ -1,5 +1,5 @@
 body {
-  background: #edf2c5;
+  background: #932421;
 }
 
 * {
@@ -16,67 +16,61 @@ body {
 }
 
 header {
-  display: flex;
-  margin: 53px auto 8px auto;
-  justify-content: space-between;
-  align-items: center;
-  width: 940px;
+  width: 100vw;
+  text-align: center;
+}
+
+.header-subtitle {
+  font-family: Arial Black;
+  font-size: 20px;
+  color: #778a50;
 }
 
 .header-title {
   font-family: Arial Black;
-  font-size: 44px;
-  color: #778a50;
-  margin: 0;
+  font-size: 30px;
+  color: white;
 }
 
-.header-button-list {
-  display: flex;
-  cursor: pointer;
-}
-
-.header-button-list img {
-  height: 25px;
-  width: 25px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.line {
-  border-left: solid #778a50 1px;
-  margin-left: 5px;
-}
-
-.header-button-list button {
-  font-family: Arial;
-  font-weight: bold;
-  margin-left: 10px;
-  border-radius: 3px;
-  border: solid #778a50 1px;
-  background: transparent;
-  color: #778a50;
-  height: 25px;
-  cursor: pointer;
-}
 
 nav {
-  width: 940px;
-  background: #778a50;
+  width: 100vw;
+  height: 40px;
+  background: #39734F;
   padding: 16px 0;
-  border-radius: 3px;
   margin-bottom: 20px;
+}
+
+nav img{
+  margin: 0 0 0 30px;
+  align-self: center;
+  height: 30px;
+}
+
+.nav-logo {
+  font-family: monospace;
+  text-decoration: none;
+  text-align: center;
+  line-height:40px;
+  font-size: 20px;
+  color: black;
+
 }
 
 .nav-item {
   font-family: Arial Black;
   text-decoration: none;
+  text-align: center;
+  line-height:40px;
   font-size: 16px;
-  color: #edf2c5;
+  color: black;
   margin: 0 30px;
+  float: right;
 }
 
+
 .banner {
-  width: 940px;
+  width: 100vw;
   margin-bottom: 30px;
   border-radius: 3px;
 }
