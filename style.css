@@ -68,6 +68,10 @@ nav img{
   float: right;
 }
 
+.nav-item:hover {
+    color: white;
+}
+
 
 .banner {
   width: 100vw;
@@ -121,6 +125,12 @@ main .block {
   position: absolute;
   top: 50%;
   left: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.start input:hover {
+    background-color: white;
+    color: #385724;
 }
 
 .word{
