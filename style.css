@@ -116,6 +116,7 @@ main .block {
   height:40px;
   border:2px blue none;
   background-color:#385724;
+  color: white;
   margin: 0;
   position: absolute;
   top: 50%;
